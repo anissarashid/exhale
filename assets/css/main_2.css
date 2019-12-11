@@ -222,8 +222,8 @@ a:hover {
 	color: #e8c100;
 	text-align: left;
 	width: 300px;
-	float: right;
-	margin-top: 10%;
+	margin: 5%;
+	margin-left: 7%;
 
 }
 
@@ -255,8 +255,29 @@ a:hover {
 
 
 #help_container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	margin: 5%;
+}
 
+#first {
+	animation: 4s floattt infinite;
+	-webkit-box-shadow: 5px 1px 33px -5px #FFD285; 
+	box-shadow: 5px 1px 33px -5px #FFD285;
+}
 
+#sec {
+	-webkit-box-shadow: 5px 1px 33px -5px #CCFFF8; 
+	box-shadow: 5px 1px 33px -5px #CCFFF8;
+	animation: 3.5s floattt infinite;
+}
+
+#thir {
+	-webkit-box-shadow: 5px 1px 33px -5px #FFF9F8; 
+	box-shadow: 5px 1px 33px -5px #FFF9F8;
+	animation: 4.2s floattt infinite;
 }
 
 
