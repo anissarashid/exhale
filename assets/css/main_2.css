@@ -8,19 +8,21 @@ body {
 #container {
 	/*position: relative;*/
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	flex-direction: row;
+	overflow-y: hidden;
+	
 }
 
+
+
 #inhale {
+	position: fixed;
 	font-family: "Lucida Console", Monaco, monospace;
 	width: 1px;
 	word-wrap: break-word;
 	font-weight: bold;
 	font-size: 200%;
 	color: #f5f5f5;
-    position: absolute;
   	top: 50%;
   	transform: translateY(-50%);
 	left: 15%;
@@ -35,13 +37,13 @@ body {
 }
 
 #exhale {
+	position: fixed;
 	font-family: "Lucida Console", Monaco, monospace;
 	width: 1px;
 	word-wrap: break-word;
 	font-weight: bold;
 	font-size: 200%;
 	color: #f5f5f5;
-	position: absolute;
   	top: 50%;
   	transform: translateY(-50%);
 	left: 85%;
@@ -64,6 +66,17 @@ body {
     justify-content: center;
 }
 
+.center-con2 {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translateY(-10%);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 .round {
@@ -73,6 +86,14 @@ body {
     height: 40px;
     border-radius: 100%;
     
+}
+
+.torus {
+	opacity: 0;
+}
+
+.cube {
+	opacity: 0;
 }
 
 #cta{
